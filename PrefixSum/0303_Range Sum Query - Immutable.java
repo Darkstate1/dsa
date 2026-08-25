@@ -1,6 +1,5 @@
 class NumArray {
         int[] prefix;//create outside all methods so that we can use in any method 
-
     public NumArray(int[] nums) {
         prefix=new int[nums.length];//initialize it to the same value as the nums 
         prefix[0] = nums[0];
